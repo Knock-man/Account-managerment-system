@@ -222,7 +222,7 @@ int viewallinformation(){
 			fscanf(fp,"%s",d);
 			fscanf(fp,"%s",e);
 			fscanf(fp,"%s",f);
-			printf("%-20s%-20s%-30s%-30s%-30s%-30s\n\n",a,b,c,d,e,f);
+			printf("%-15s%-20s%-20s%-60s%-25s%-30s\n\n",a,b,c,d,e,f);
 			if(i!=line-1){
 				printf("%-10d",i+1);
 			}
@@ -250,7 +250,7 @@ int DelLineData()
 			fscanf(fp,"%s",d);
 			fscanf(fp,"%s",e);
 			fscanf(fp,"%s",f);
-			printf("%-20s%-20s%-30s%-30s%-30s%-30s\n\n",a,b,c,d,e,f);
+			printf("%-15s%-20s%-20s%-60s%-25s%-30s\n\n",a,b,c,d,e,f);
 			if(i!=fileline0-1){
 				printf("%-10d",i+1);
 			}
@@ -318,7 +318,7 @@ int altermation(){
 			fscanf(fp,"%s",d);
 			fscanf(fp,"%s",e);
 			fscanf(fp,"%s",f);
-			printf("%-20s%-20s%-30s%-30s%-30s%-30s\n\n",a,b,c,d,e,f);
+			printf("%-15s%-20s%-20s%-60s%-25s%-30s\n\n",a,b,c,d,e,f);
 			if(i!=fileline0-1){
 				printf("%-10d",i+1);
 			}
